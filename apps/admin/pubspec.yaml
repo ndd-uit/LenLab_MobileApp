@@ -1,0 +1,17 @@
+name: lenlab_admin
+description: LENLAB admin approved P2 frontend.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ^3.13.4
+dependencies:
+  flutter:
+    sdk: flutter
+  lenlab_shared:
+    path: ../../packages/lenlab_shared
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
